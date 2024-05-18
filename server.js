@@ -1,4 +1,4 @@
-// initialising import sunctions and variables
+// initialising import functions and variables
 
 const express = require('express');
 const app = express();
@@ -26,11 +26,23 @@ let pokemon = {
         power: "89xp",
         agility:"77ap"
     },
-    "Blastoise":{
+    "blastoise":{
         name:"Blastoise",
         type: "Water",
         power: "85xp",
         agility:"70ap"
+    },
+    "magmar":{
+	    name:"Magmar",
+	    type:"fire",
+	    power:"87xp",
+	    agility:"77ap"
+    },
+    "lugia":{
+	    name:"Lugia",
+	    type:"rare",
+	    power:"97xp",
+	    agility:"99ap"
     },
     "no name":{
         name:"unknown",
